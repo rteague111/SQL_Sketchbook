@@ -1,0 +1,7 @@
+mkdir foldername
+cd foldername
+echo # placeholder > .gitkeep
+cd ..
+git add foldername/.gitkeep
+git commit -m "Add foldername folder"
+git push
